@@ -44,7 +44,7 @@ func main() {
 			led1.High()
 			led2.Low()
 			led3.Low()
-		} else if temperature >= (baselineTemp + 5) {
+		} else if temperature >= (baselineTemp + 4) {
 			led1.High()
 			led2.High()
 			led3.High()
