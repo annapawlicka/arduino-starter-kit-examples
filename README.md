@@ -44,3 +44,12 @@ Then, this signal is sent to the RGB led through digital outputs.
 RGB led transforms this signal into a colored light.
 
 ![RGB led](https://github.com/annapawlicka/arduino-fun/assets/2522010/ac1a3b59-8c48-42e4-99a7-652eea65422c)
+
+### Mood Cue
+
+Uses a servo motor to make a mechanical gauge.
+Servo motor included in the kit is used to make an arm that moves in reaction to potentiometer. When the knob of the 
+potentiometer is turned, the ratio of voltage is changed and that is then fed to the servo to move the arm. Two capacitors 
+are used to smooth out voltage changes that occur when we turn the potentiometer.
+
+![IMG_5407](https://github.com/annapawlicka/arduino-fun/assets/2522010/32229bc0-1e57-4450-9539-488401a5d0d2)
