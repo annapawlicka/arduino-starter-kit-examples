@@ -1,8 +1,8 @@
 package main
 
 import (
+	"annapawlicka.arduino-fun/tools"
 	"machine"
-	"math"
 	"time"
 )
 
@@ -13,11 +13,7 @@ var scaleMultiplier float64 = 256.0 / 65535.0
 // However, PWM's Set() is 8-bit and so it accepts values in (0 - 256) range.
 // Additionally, ADC's Get() returns uint16, but PWM's Set() accepts uint32.
 func scaleFromADCToPWM(value uint16) uint32 {
-	vAsFloat := float64(value)
-	v := scaleMultiplier * vAsFloat
-	rounded := math.Round(v)
-	intValue := uint32(rounded)
-	return intValue
+	return uint32(tools.ScaleValue(value, 0, 65535, 0, 256))
 }
 
 func main() {

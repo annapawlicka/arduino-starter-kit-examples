@@ -30,7 +30,6 @@ func main() {
 		// pulse range between 1000-2000µs for 90 degrees rotation
 		// 0 degrees is 1000, 45 degrees is 1500 and 90 degrees is 2000.
 		angle := tools.ScaleValue(potValue, 0, 65535, 1000, 2000)
-		println("setting to ", angle)
 		s.SetMicroseconds(int16(angle))
 		time.Sleep(15 * time.Millisecond)
 	}
