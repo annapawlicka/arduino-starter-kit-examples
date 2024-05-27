@@ -53,3 +53,13 @@ potentiometer is turned, the ratio of voltage is changed and that is then fed to
 are used to smooth out voltage changes that occur when we turn the potentiometer.
 
 ![IMG_5407](https://github.com/annapawlicka/arduino-fun/assets/2522010/32229bc0-1e57-4450-9539-488401a5d0d2)
+
+### Light Theremin
+
+Uses a Photoresistor and a Pieze element to make a light-based Theremin. Theremin is an instrument that makes sounds based on 
+the movements of a musician’s hands around the instrument. In this case, we're going to be making movements above the 
+photoresistor. Reading from that sensor will then be used to calculate the pitch and send it to the piezo.
+
+Demo video uploaded to YouTube (sound on!):
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YPRH3eVjy4c/0.jpg)](https://www.youtube.com/watch?v=YPRH3eVjy4c)
