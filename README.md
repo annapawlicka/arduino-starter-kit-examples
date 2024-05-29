@@ -1,5 +1,6 @@
 # arduino-fun
 Implementing examples from the Arduino Uno Starter Kit in Go, or rather [TinyGo](https://tinygo.org).
+Not including schematics since they're all available in the kit and/or online.
 
 ## Setup
 
