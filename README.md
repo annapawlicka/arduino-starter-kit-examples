@@ -63,3 +63,11 @@ photoresistor. Reading from that sensor will then be used to calculate the pitch
 Demo video uploaded to YouTube (sound on!):
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YPRH3eVjy4c/0.jpg)](https://www.youtube.com/watch?v=YPRH3eVjy4c)
+
+### Keyboard
+
+A four-key musical keyboard using button sensors and a piezo speaker.
+
+Demo video uploaded to YouTube (sound on!):
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/03Chv3k4brQ/0.jpg)](https://www.youtube.com/watch?v=03Chv3k4brQ)
