@@ -63,12 +63,22 @@ photoresistor. Reading from that sensor will then be used to calculate the pitch
 
 Demo video uploaded to YouTube (sound on!):
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YPRH3eVjy4c/0.jpg)](https://www.youtube.com/watch?v=YPRH3eVjy4c)
+[![Light Theremin](https://img.youtube.com/vi/YPRH3eVjy4c/0.jpg)](https://www.youtube.com/watch?v=YPRH3eVjy4c)
 
-### Keyboard
+### Keyboard Instrument
 
 A four-key musical keyboard using button sensors and a piezo speaker.
 
 Demo video uploaded to YouTube (sound on!):
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/03Chv3k4brQ/0.jpg)](https://www.youtube.com/watch?v=03Chv3k4brQ)
+[![Keyboard Instrument](https://img.youtube.com/vi/03Chv3k4brQ/0.jpg)](https://www.youtube.com/watch?v=03Chv3k4brQ)
+
+### Digital Hourglass
+
+Uses tilt sensor and 6 leds to create a clock that turns a led on every ten minutes. Reset the clock the same way you would 
+reset an hourglass: by tilting it back and forth!
+
+(Demo has the interval set to 1 second instead of 10 minutes)
+
+![IMG_5507](https://github.com/annapawlicka/arduino-starter-kit-examples/assets/2522010/a7dcd559-cb41-429f-a27b-7fafcaf6d275)
+
