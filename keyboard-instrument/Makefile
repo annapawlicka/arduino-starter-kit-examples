@@ -1,2 +1,2 @@
 flash:
-	tinygo flash -target=arduino keyboard.go
+	tinygo flash -target=arduino keyboard-instrument.go
