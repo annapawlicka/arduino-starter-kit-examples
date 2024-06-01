@@ -82,3 +82,9 @@ reset an hourglass: by tilting it back and forth!
 
 ![IMG_5507](https://github.com/annapawlicka/arduino-starter-kit-examples/assets/2522010/a7dcd559-cb41-429f-a27b-7fafcaf6d275)
 
+### Motorized Pinwheel
+
+Uses transistor and higher voltage to spin a pinwheel. When you press the button, the pinwheel spins.
+9-volt battery required.
+
+![IMG_5517](https://github.com/annapawlicka/arduino-starter-kit-examples/assets/2522010/a5e01325-8c93-4998-bb6c-017ede9a7bfc)
